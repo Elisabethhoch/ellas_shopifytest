@@ -1,6 +1,8 @@
 .rich-text {
   z-index: 1;
-  background-color: blue;
+  background-color: #f7f7f7;
+  color: #333;
+  padding: 2rem 2rem 1rem;
 }
 
 .rich-text__wrapper {
