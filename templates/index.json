@@ -175,7 +175,7 @@
         "padding_bottom": 36
       }
     },
-    "custom_liquid_tYWtb4": {
+    "custom_liquid_VD6c4M": {
       "type": "custom-liquid",
       "settings": {
         "custom_liquid": "",
@@ -188,7 +188,7 @@
   "order": [
     "image_banner",
     "rich_text",
-    "custom_liquid_tYWtb4",
+    "custom_liquid_VD6c4M",
     "collage",
     "video",
     "multicolumn"
