@@ -50,24 +50,11 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "custom_liquid_wd4nfE": {
-      "type": "custom-liquid",
-      "custom_css": [
-
-      ],
-      "settings": {
-        "custom_liquid": "<div class=\"gallery-container\">\n  <div class=\"gallery-item\">\n    <img src=\"URL_ZUM_BILD_1\" alt=\"Bild 1\">\n  </div>\n  <div class=\"gallery-item\">\n    <img src=\"URL_ZUM_BILD_2\" alt=\"\">\n  </div>\n  <div class=\"gallery-item\">\n    <img src=\"URL_ZUM_BILD_3\" alt=\"Bild 3\">\n  </div>\n  <div class=\"gallery-item\">\n    <img src=\"URL_ZUM_BILD_4\" alt=\"Bild 4\">\n  </div>\n  <!-- Weitere gallery-item-Container für zusätzliche Bilder -->\n</div>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "image_banner",
     "rich_text",
-    "video",
-    "custom_liquid_wd4nfE"
+    "video"
   ]
 }
