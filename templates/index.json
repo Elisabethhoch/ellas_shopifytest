@@ -11,38 +11,6 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
       "settings": {
         "image": "shopify://shop_images/IMG_5987.jpg",
         "image_overlay_opacity": 40,
@@ -71,11 +39,11 @@
     "custom_liquid_VD6c4M": {
       "type": "custom-liquid",
       "custom_css": [
-        ".gallery-container{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}",
-        ".gallery-item{flex-basis:100%;max-width:300px}",
-        ".gallery-item img{width:100%;height:auto;object-fit:cover}",
-        "@media(min-width:600px){.gallery-item{flex-basis:calc(50% - 10px)}}",
-        "@media(min-width:1000px){.gallery-item{flex-basis:calc(25% - 10px)}}"
+        ".gallery-container {display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;}",
+        ".gallery-item {flex-basis: 100%; max-width: 300px;}",
+        ".gallery-item img {width: 100%; height: auto; object-fit: cover;}",
+        "@media (min-width: 600px) {.gallery-item {flex-basis: calc(50% - 10px); }}",
+        "@media (min-width: 1000px) {.gallery-item {flex-basis: calc(25% - 10px); }}"
       ],
       "settings": {
         "custom_liquid": "",
