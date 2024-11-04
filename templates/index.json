@@ -109,14 +109,10 @@
     "custom_liquid_wd4nfE": {
       "type": "custom-liquid",
       "custom_css": [
-        "/* Galerie-Layout für die Startseite */.gallery-row {display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; padding: 20px;}",
-        ".gallery-item {flex: 1 1 200px; /* Basisbreite von 200px für jedes Bild */ max-width: 250px; /* Maximalbreite pro Bild */ overflow: hidden; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease;}",
-        ".gallery-item img {width: 100%; height: auto; display: block; transition: transform 0.3s ease;}",
-        ".gallery-item:hover {transform: scale(1.05);}",
-        ".gallery-item img:hover {transform: scale(1.1);}"
+
       ],
       "settings": {
-        "custom_liquid": "<div class=\"gallery-row\">\n  <div class=\"gallery-item\">\n    <img src=\"URL_ZUM_BILD_1\" alt=\"Produkt Bild 1\">\n  </div>\n  <div class=\"gallery-item\">\n    <img src=\"URL_ZUM_BILD_2\" alt=\"Produkt Bild 2\">\n  </div>\n  <div class=\"gallery-item\">\n    <img src=\"URL_ZUM_BILD_3\" alt=\"Produkt Bild 3\">\n  </div>\n  <!-- Weitere gallery-item-Container für zusätzliche Bilder -->\n</div>",
+        "custom_liquid": "",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
