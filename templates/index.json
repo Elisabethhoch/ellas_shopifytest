@@ -36,69 +36,15 @@
         "padding_bottom": 0
       }
     },
-    "custom_liquid_VD6c4M": {
-      "type": "custom-liquid",
-      "custom_css": [
-        ".gallery-container {display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;}",
-        ".gallery-item {flex-basis: 100%; max-width: 300px;}",
-        ".gallery-item img {width: 100%; height: auto; object-fit: cover;}",
-        "@media (min-width: 600px) {.gallery-item {flex-basis: calc(50% - 10px); }}",
-        "@media (min-width: 1000px) {.gallery-item {flex-basis: calc(25% - 10px); }}"
-      ],
-      "settings": {
-        "custom_liquid": "",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "video": {
       "type": "video",
       "settings": {
         "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
+        "heading_size": "hxxl",
+        "enable_video_looping": true,
         "video": "shopify://files/videos/IMG_7081 2.MOV",
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify://shop_images/IMG_7047.jpg",
         "description": "",
         "full_width": false,
         "color_scheme": "scheme-1",
@@ -122,8 +68,6 @@
   "order": [
     "image_banner",
     "rich_text",
-    "custom_liquid_VD6c4M",
-    "collage",
     "video",
     "custom_liquid_wd4nfE"
   ]
