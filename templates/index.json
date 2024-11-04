@@ -112,7 +112,7 @@
 
       ],
       "settings": {
-        "custom_liquid": "<div class=\"gallery-container\">\n  <div class=\"gallery-item\">\n    <img src=\"URL_ZUM_BILD_1\" alt=\"Bild 1\">\n  </div>\n  <div class=\"gallery-item\">\n    <img src=\"URL_ZUM_BILD_2\" alt=\"Bild 2\">\n  </div>\n  <div class=\"gallery-item\">\n    <img src=\"URL_ZUM_BILD_3\" alt=\"Bild 3\">\n  </div>\n  <div class=\"gallery-item\">\n    <img src=\"URL_ZUM_BILD_4\" alt=\"Bild 4\">\n  </div>\n  <!-- Weitere gallery-item-Container für zusätzliche Bilder -->\n</div>",
+        "custom_liquid": "<div class=\"gallery-container\">\n  <div class=\"gallery-item\">\n    <img src=\"URL_ZUM_BILD_1\" alt=\"Bild 1\">\n  </div>\n  <div class=\"gallery-item\">\n    <img src=\"URL_ZUM_BILD_2\" alt=\"https://ellavie-shop.myshopify.com › products › lorena\n\n\">\n  </div>\n  <div class=\"gallery-item\">\n    <img src=\"URL_ZUM_BILD_3\" alt=\"Bild 3\">\n  </div>\n  <div class=\"gallery-item\">\n    <img src=\"URL_ZUM_BILD_4\" alt=\"Bild 4\">\n  </div>\n  <!-- Weitere gallery-item-Container für zusätzliche Bilder -->\n</div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
