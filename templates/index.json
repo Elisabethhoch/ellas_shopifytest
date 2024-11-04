@@ -38,6 +38,7 @@
     },
     "video": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "hxxl",
@@ -50,11 +51,46 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "newsletter_rRizNr": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_e4RmFQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get your LOVE Letter",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_ktaPhw": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
+          }
+        },
+        "email_form_aFwC9n": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading_e4RmFQ",
+        "paragraph_ktaPhw",
+        "email_form_aFwC9n"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "image_banner",
     "rich_text",
-    "video"
+    "video",
+    "newsletter_rRizNr"
   ]
 }
