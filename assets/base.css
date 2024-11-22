@@ -3598,21 +3598,4 @@ details-disclosure > details {
     transform: translateX(100%) scaleX(0);
   }
 }
-/* Homepage with full width photo */
-.image-with-text-overlay .image-with-text-overlay__banner {
- height: 100% !important;
- width: 100% !important;
-}
-.image-element__wrap[style*=".png"] {
- height: 100% !important;
- width: 100% !important;
-}
-.img.transition--color.is-hidden-mobile-only.lazyautosizes.ls-is-cached.lazyloaded {
- height: 100% !important;
- width: 100% !important;
-}
-/* change menu to top */
-.navbar.dropdown-click--false.is-align-center.is-justify-space-between.vertical-alignment-center.one-whole.column {
- top: 0 !important;
- transform: translateX(-50%) !important;
-}
+
