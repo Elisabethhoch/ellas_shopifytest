@@ -10,6 +10,27 @@
 {%- if section.settings.menu_type_desktop == 'mega' -%}
   <link rel="stylesheet" href="{{ 'component-mega-menu.css' | asset_url }}" media="print" onload="this.media='all'">
 {%- endif -%}
+.site-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10; /* Stellt sicher, dass das Menü über dem Bild liegt */
+    background: transparent; /* Transparenter Hintergrund */
+}
+
+.site-header a {
+    color: white; /* Textfarbe anpassen, damit es über dem Bild sichtbar ist */
+}
+
+.hero-section {
+    position: relative;
+}
+
+.hero-section img {
+    width: 100%; /* Bild passt sich an den Bildschirm an */
+    height: auto;
+}
 
 
 <style>
@@ -617,28 +638,5 @@
   ]
 }
 {% endschema %}
-
-  .site-header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 10; /* Stellt sicher, dass das Menü über dem Bild liegt */
-    background: transparent; /* Transparenter Hintergrund */
-}
-
-.site-header a {
-    color: white; /* Textfarbe anpassen, damit es über dem Bild sichtbar ist */
-}
-
-.hero-section {
-    position: relative;
-}
-
-.hero-section img {
-    width: 100%; /* Bild passt sich an den Bildschirm an */
-    height: auto;
-}
-
 
 
