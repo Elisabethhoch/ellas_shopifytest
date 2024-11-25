@@ -11,9 +11,9 @@
   "current": {
     "logo": "shopify://shop_images/EllavieLogoWebsite.jpg",
     "logo_width": 240,
-    "type_header_font": "alegreya_n4",
+    "type_header_font": "mono",
     "heading_scale": 100,
-    "type_body_font": "alegreya_n4",
+    "type_body_font": "arsenal_n4",
     "body_scale": 100,
     "page_width": 1300,
     "spacing_sections": 0,
@@ -136,9 +136,7 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "color_schemes": {
       "scheme-1": {
         "settings": {
