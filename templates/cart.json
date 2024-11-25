@@ -39,10 +39,25 @@
         "padding_top": 40,
         "padding_bottom": 40
       }
+    },
+    "custom_liquid_fMjheK": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".empty-cart-message {font-size: 18px; color: #555; text-align: center; margin: 20px 0;}",
+        ".btn-continue-shopping {display: inline-block; margin-top: 15px; padding: 10px 20px; background-color: #007acc; color: white; text-decoration: none; border-radius: 5px; text-align: center;}",
+        ".btn-continue-shopping:hover {background-color: #005f99;}"
+      ],
+      "settings": {
+        "custom_liquid": "{% if cart.item_count == 0 %}\n   <p class=\"empty-cart-message\">Dein Warenkorb ist leer.</p>\n{% else %}\n   {% for item in cart.items %}\n       <!-- Code für die Anzeige der Artikel -->\n   {% endfor %}\n{% endif %}",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "cart-items",
-    "cart-footer"
+    "cart-footer",
+    "custom_liquid_fMjheK"
   ]
 }
