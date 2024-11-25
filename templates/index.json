@@ -70,8 +70,7 @@
         },
         "email_form_aFwC9n": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -85,12 +84,32 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "1732561859482d3bdd": {
+      "type": "apps",
+      "blocks": {
+        "xo_gallery_xo_gallery_VNYWmg": {
+          "type": "shopify://apps/xo-gallery/blocks/xo-gallery/e61dfbaa-1a75-4e4e-bffc-324f17325251",
+          "settings": {
+            "type": "album",
+            "id": 2,
+            "mid": ""
+          }
+        }
+      },
+      "block_order": [
+        "xo_gallery_xo_gallery_VNYWmg"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "image_banner",
     "rich_text",
     "video",
-    "newsletter_rRizNr"
+    "newsletter_rRizNr",
+    "1732561859482d3bdd"
   ]
 }
