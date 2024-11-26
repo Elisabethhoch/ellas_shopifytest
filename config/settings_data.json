@@ -9,8 +9,8 @@
  */
 {
   "current": {
-    "logo": "shopify://shop_images/Shopify_Ellavie.png",
-    "logo_width": 260,
+    "logo": "shopify://shop_images/shopifyLogo.svg",
+    "logo_width": 170,
     "type_header_font": "arsenal_n4",
     "heading_scale": 100,
     "type_body_font": "arsenal_n4",
