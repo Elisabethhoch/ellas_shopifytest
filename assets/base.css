@@ -3601,18 +3601,5 @@ details-disclosure > details {
 .product-card__title {
   margin-top: 5px !important; /* Verringert den Abstand über dem Titel */
 }
-input[type="number"] {
-    border: none !important; /* Entfernt die Umrandung */
-    outline: none !important; /* Entfernt den Fokusrahmen */
-    -moz-appearance: textfield !important; /* Entfernt Standard-Pfeile in Firefox */
-    background: transparent !important; /* Setzt den Hintergrund auf transparent */
-    box-shadow: none !important; /* Entfernt Schatten, falls vorhanden */
-}
-
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
-    -webkit-appearance: none !important; /* Entfernt Standard-Pfeile in Chrome/Safari */
-    margin: 0 !important;
-}
 
 
