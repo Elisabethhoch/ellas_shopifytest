@@ -402,7 +402,8 @@
       "@media (min-width: 1000px) {.gallery-item {flex-basis: calc(25% - 10px); }}",
       ".xo-gallery {margin: 0 !important; padding: 0 !important;}",
       ".xo-gallery {margin: 0 !important; padding: 0 !important;}",
-      ".container, .section {margin: 0; padding: 0;}"
+      ".container,.section {margin: 0; padding: 0;}",
+      ".xo-gallery img {width: 100%; /* Bilder füllen den Container vollständig aus */ height: auto; /* Proportionale Höhe */}"
     ]
   }
 }
