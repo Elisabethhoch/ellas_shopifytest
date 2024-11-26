@@ -20,23 +20,15 @@
             "heading": "FOLLOW US",
             "menu": "footer"
           }
-        },
-        "link_list_KCWAJ4": {
-          "type": "link_list",
-          "settings": {
-            "heading": "MENU",
-            "menu": "footer"
-          }
         }
       },
       "block_order": [
-        "footer-1",
-        "link_list_KCWAJ4"
+        "footer-1"
       ],
       "settings": {
         "color_scheme": "scheme-1",
-        "newsletter_enable": false,
-        "newsletter_heading": "Subscribe to our emails",
+        "newsletter_enable": true,
+        "newsletter_heading": "GET YOUR LOVE LETTER <3",
         "enable_follow_on_shop": true,
         "show_social": true,
         "enable_country_selector": false,
