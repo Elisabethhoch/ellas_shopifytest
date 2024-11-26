@@ -3586,7 +3586,6 @@ details-disclosure > details {
 .progress-bar .progress-bar-value {
   display: block;
 }
-
 @keyframes indeterminateAnimation {
   0% {
     transform: translateX(-20%) scaleX(0);
@@ -3612,5 +3611,4 @@ input[type="number"]::-webkit-outer-spin-button {
     -webkit-appearance: none; /* Entfernt Standard-Pfeile in Chrome/Safari */
     margin: 0;
 }
-
 
