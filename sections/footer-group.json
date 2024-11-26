@@ -14,30 +14,22 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "footer-0": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Client Service",
-            "menu": "footer"
-          }
-        },
         "footer-1": {
           "type": "link_list",
           "settings": {
-            "heading": "Follow Us",
+            "heading": "FOLLOW US",
             "menu": "footer"
           }
         },
         "link_list_KCWAJ4": {
           "type": "link_list",
           "settings": {
-            "heading": "Company",
+            "heading": "MENU",
             "menu": "footer"
           }
         }
       },
       "block_order": [
-        "footer-0",
         "footer-1",
         "link_list_KCWAJ4"
       ],
