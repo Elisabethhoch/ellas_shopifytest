@@ -3601,4 +3601,16 @@ details-disclosure > details {
 .product-card__title {
   margin-top: 5px !important; /* Verringert den Abstand über dem Titel */
 }
+input[type="number"] {
+    border: none; /* Entfernt die Umrandung */
+    outline: none; /* Entfernt den Fokusrahmen */
+    -moz-appearance: textfield; /* Entfernt Standard-Pfeile in Firefox */
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none; /* Entfernt Standard-Pfeile in Chrome/Safari */
+    margin: 0;
+}
+
 
