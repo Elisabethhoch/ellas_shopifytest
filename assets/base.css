@@ -3586,6 +3586,7 @@ details-disclosure > details {
 .progress-bar .progress-bar-value {
   display: block;
 }
+
 @keyframes indeterminateAnimation {
   0% {
     transform: translateX(-20%) scaleX(0);
@@ -3601,14 +3602,17 @@ details-disclosure > details {
   margin-top: 5px !important; /* Verringert den Abstand über dem Titel */
 }
 input[type="number"] {
-    border: none; /* Entfernt die Umrandung */
-    outline: none; /* Entfernt den Fokusrahmen */
-    -moz-appearance: textfield; /* Entfernt Standard-Pfeile in Firefox */
+    border: none !important; /* Entfernt die Umrandung */
+    outline: none !important; /* Entfernt den Fokusrahmen */
+    -moz-appearance: textfield !important; /* Entfernt Standard-Pfeile in Firefox */
+    background: transparent !important; /* Setzt den Hintergrund auf transparent */
+    box-shadow: none !important; /* Entfernt Schatten, falls vorhanden */
 }
 
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
-    -webkit-appearance: none; /* Entfernt Standard-Pfeile in Chrome/Safari */
-    margin: 0;
+    -webkit-appearance: none !important; /* Entfernt Standard-Pfeile in Chrome/Safari */
+    margin: 0 !important;
 }
+
 
