@@ -403,8 +403,7 @@
       ".xo-gallery {margin: 0 !important; padding: 0 !important;}",
       ".xo-gallery {margin: 0 !important; padding: 0 !important;}",
       ".container,.section {margin: 0; padding: 0;}",
-      ".xo-gallery img {width: 100%; /* Bilder füllen den Container vollständig aus */ height: auto; /* Proportionale Höhe */}",
-      ".site-nav a {text-decoration: none !important;}"
+      ".xo-gallery img {width: 100%; /* Bilder füllen den Container vollständig aus */ height: auto; /* Proportionale Höhe */}"
     ]
   }
 }
