@@ -64,6 +64,15 @@
             "content": "",
             "page": ""
           }
+        },
+        "collapsible-row-3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Care Instructions",
+            "icon": "heart",
+            "content": "",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -75,7 +84,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "collapsible-row-1"
+        "collapsible-row-1",
+        "collapsible-row-3"
       ],
       "settings": {
         "enable_sticky_info": true,
