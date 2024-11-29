@@ -93,25 +93,6 @@
         "padding_bottom": 12
       }
     },
-    "multicolumn": {
-      "type": "multicolumn",
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -133,7 +114,6 @@
   },
   "order": [
     "main",
-    "multicolumn",
     "related-products"
   ]
 }
