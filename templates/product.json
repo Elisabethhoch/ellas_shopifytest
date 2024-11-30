@@ -64,6 +64,22 @@
             "content": "<p>Find out more about the shipping costs to your destination <a href=\"https://ellavie-shop.myshopify.com/pages/shipping-returns\" title=\"https://ellavie-shop.myshopify.com/pages/shipping-returns\">here</a>.</p><p>We accept returns within 14 days of receipt free of charge. For more information, see <a href=\"https://ellavie-shop.myshopify.com/pages/shipping-returns\" title=\"https://ellavie-shop.myshopify.com/pages/shipping-returns\">here</a> our policy.</p>",
             "page": ""
           }
+        },
+        "collapsible_tab_wkEtBz": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "DESCRIPTION",
+            "icon": "none",
+            "content": "",
+            "page": ""
+          }
+        },
+        "popup_GrMra4": {
+          "type": "popup",
+          "settings": {
+            "text": "Pop-up link text",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -75,7 +91,9 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "collapsible_tab_kF8g3Y"
+        "collapsible_tab_kF8g3Y",
+        "collapsible_tab_wkEtBz",
+        "popup_GrMra4"
       ],
       "settings": {
         "enable_sticky_info": true,
