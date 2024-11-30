@@ -52,9 +52,12 @@
             "show_gift_card_recipient": false
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {}
+        "text_FRghTD": {
+          "type": "text",
+          "settings": {
+            "text": "Our tech sleeves combine exceptional design with top-quality craftsmanship. The carefully selected outer fabric offers a timeless look and a pleasant feel. Inside, a protective layer and soft cotton lining ensure optimal device protection. The sturdy, color-coordinated zipper completes the design, making the sleeve the perfect companion for those who value style and functionality!",
+            "text_style": "body"
+          }
         },
         "collapsible_tab_wkEtBz": {
           "type": "collapsible_tab",
@@ -73,13 +76,6 @@
             "content": "<p>Find out more about the shipping costs to your destination <a href=\"https://ellavie-shop.myshopify.com/pages/shipping-returns\" title=\"https://ellavie-shop.myshopify.com/pages/shipping-returns\">here</a>.</p><p>We accept returns within 14 days of receipt free of charge. For more information, see <a href=\"https://ellavie-shop.myshopify.com/pages/shipping-returns\" title=\"https://ellavie-shop.myshopify.com/pages/shipping-returns\">here</a> our policy.</p>",
             "page": ""
           }
-        },
-        "popup_GrMra4": {
-          "type": "popup",
-          "settings": {
-            "text": "Pop-up link text",
-            "page": ""
-          }
         }
       },
       "block_order": [
@@ -90,10 +86,9 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
+        "text_FRghTD",
         "collapsible_tab_wkEtBz",
-        "collapsible_tab_kF8g3Y",
-        "popup_GrMra4"
+        "collapsible_tab_kF8g3Y"
       ],
       "settings": {
         "enable_sticky_info": true,
