@@ -68,8 +68,8 @@
         "collapsible_tab_wkEtBz": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "DESCRIPTION",
-            "icon": "none",
+            "heading": "description",
+            "icon": "banana",
             "content": "",
             "page": ""
           }
