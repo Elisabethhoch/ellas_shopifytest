@@ -61,7 +61,7 @@
           "settings": {
             "heading": "DESCRIPTION",
             "icon": "none",
-            "content": "<p>Find out more about the shipping costs to your destination <a href=\"https://ellavie-shop.myshopify.com/pages/shipping-returns\" title=\"https://ellavie-shop.myshopify.com/pages/shipping-returns\">here</a>.</p><p>We accept returns within 30 days of receipt free of charge. For more information, see <a href=\"https://www.fashionclinic.com/pages/returns-exchanges\" title=\"Returns & Exchanges\">here</a> our policy.</p>",
+            "content": "<p>Find out more about the shipping costs to your destination <a href=\"https://ellavie-shop.myshopify.com/pages/shipping-returns\" title=\"https://ellavie-shop.myshopify.com/pages/shipping-returns\">here</a>.</p><p>We accept returns within 30 days of receipt free of charge. For more information, see <a href=\"https://ellavie-shop.myshopify.com/pages/shipping-returns\" title=\"https://ellavie-shop.myshopify.com/pages/shipping-returns\">here</a> our policy.</p>",
             "page": ""
           }
         }
