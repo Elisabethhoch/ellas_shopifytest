@@ -134,3 +134,15 @@ class CartDrawerItems extends CartItems {
 }
 
 customElements.define('cart-drawer-items', CartDrawerItems);
+<div class="cart-item">
+  <div class="cart-item-details">
+    <img src="{{ item.image }}" alt="{{ item.title }}">
+    <div class="cart-item-name">{{ item.product.title }}</div>
+  </div>
+  <div class="cart-item-quantity">
+    <input type="number" value="{{ item.quantity }}" min="1">
+    <a href="/cart/change?line={{ forloop.index }}&quantity=0" class="remove">🗑</a>
+  </div>
+  <div class="cart-item-price">{{ item.line_price | money }}</div>
+</div>
+
