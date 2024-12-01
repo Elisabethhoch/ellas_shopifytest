@@ -22,7 +22,7 @@ class CartDrawer extends HTMLElement {
         event.preventDefault();
         this.open(cartLink);
       }
-    });
+    }); 
   }
 
   open(triggeredBy) {
