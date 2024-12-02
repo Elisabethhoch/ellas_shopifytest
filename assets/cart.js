@@ -206,6 +206,19 @@ class CartItems extends HTMLElement {
         } else if (document.querySelector('.cart-item') && cartDrawerWrapper) {
           trapFocus(cartDrawerWrapper, document.querySelector('.cart-item__name'));
         }
+{% for item in cart.items %}
+<div class="cart-item">
+  <div class="cart-item-details">
+    <img src="{{ item.image | img_url: 'medium' }}" alt="{{ item.title }}">
+    <div class="cart-item-name">{{ item.product.title }}</div>
+  </div>
+  <div class="cart-item-quantity">
+    <input type="number" value="{{ item.quantity }}" min="1">
+    <a href="/cart/change?line={{ forloop.index }}&quantity=0" class="remove">🗑</a>
+  </div>
+  <div class="cart-item-price">{{ item.line_price | money }}</div>
+</div>
+{% endfor %}
 
         publish(PUB_SUB_EVENTS.cartUpdate, { source: 'cart-items', cartData: parsedState, variantId: variantId });
       })
