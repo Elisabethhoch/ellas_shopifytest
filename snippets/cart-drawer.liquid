@@ -143,6 +143,11 @@
   </div>
   <div class="cart-item-price">{{ item.line_price | money }}</div>
 </div>
+<div class="cart-summary">
+  <p>Geschätzte Gesamtkosten:</p>
+  <p>{{ cart.total_price | money }}</p>
+  <p>Inklusive Steuern. Versand wird an der Kasse berechnet.</p>
+</div>
 
                         </td>
 
