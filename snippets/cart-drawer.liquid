@@ -132,6 +132,20 @@
                               height="{{ 150 | divided_by: item.image.aspect_ratio | ceil }}"
                             >
                           {% endif %}
+                          {% for item in cart.items %}
+<div class="cart-item">
+  <div class="cart-item-details">
+    <img src="{{ item.image | img_url: 'medium' }}" alt="{{ item.title }}">
+    <div class="cart-item-name">{{ item.product.title }}</div>
+  </div>
+  <div class="cart-item-quantity">
+    <input type="number" value="{{ item.quantity }}" min="1">
+    <a href="/cart/change?line={{ forloop.index }}&quantity=0" class="remove">🗑</a>
+  </div>
+  <div class="cart-item-price">{{ item.line_price | money }}</div>
+</div>
+{% endfor %}
+
                         </td>
 
                         <td class="cart-item__details" role="cell" headers="CartDrawer-ColumnProduct">
