@@ -131,24 +131,12 @@
                               width="150"
                               height="{{ 150 | divided_by: item.image.aspect_ratio | ceil }}"
                             >
-                          {% endif %}
-                          <div class="cart-item">
-  <div class="cart-item-details">
-    <img src="{{ item.image }}" alt="{{ item.title }}">
-    <div class="cart-item-name">{{ item.product.title }}</div>
-  </div>
-  <div class="cart-item-quantity">
-    <input type="number" value="{{ item.quantity }}" min="1">
-    <a href="/cart/change?line={{ forloop.index }}&quantity=0" class="remove">🗑</a>
-  </div>
-  <div class="cart-item-price">{{ item.line_price | money }}</div>
-</div>
-<div class="cart-summary">
-  <p>Geschätzte Gesamtkosten:</p>
-  <p>{{ cart.total_price | money }}</p>
-  <p>Inklusive Steuern. Versand wird an der Kasse berechnet.</p>
-</div>
+                            {% for item in cart.items %}
+  <!-- Darstellung der Produkte -->
+{% endfor %}
 
+                          {% endif %}
+                          
                         </td>
 
                         <td class="cart-item__details" role="cell" headers="CartDrawer-ColumnProduct">
