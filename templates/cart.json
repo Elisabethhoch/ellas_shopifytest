@@ -11,7 +11,6 @@
   "sections": {
     "cart-items": {
       "type": "main-cart-items",
-      "disabled": true,
       "settings": {
         "color_scheme": "",
         "padding_top": 36,
@@ -54,7 +53,6 @@
         "padding_bottom": 52
       }
     }
-    
   },
   "order": [
     "cart-items",
@@ -62,4 +60,3 @@
     "custom_liquid_fMjheK"
   ]
 }
-
