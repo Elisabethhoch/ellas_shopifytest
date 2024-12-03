@@ -552,6 +552,10 @@
             {% if cart == empty %}
               disabled
             {% endif %}
+            <form method="post" action="/checkout">
+    <button type="submit" class="btn btn-primary">Checkout</button>
+</form>
+
           >
             {{ 'sections.cart.checkout' | t }}
           </button>
