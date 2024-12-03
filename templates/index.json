@@ -60,6 +60,12 @@
             "collection": "14-zoll"
           }
         },
+        "featured_collection_VTqMtd": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
         "featured_collection_dF9hcB": {
           "type": "featured_collection",
           "settings": {
@@ -70,6 +76,7 @@
       "block_order": [
         "featured_collection_7jDrpc",
         "featured_collection_4raDaM",
+        "featured_collection_VTqMtd",
         "featured_collection_dF9hcB"
       ],
       "disabled": true,
@@ -116,13 +123,57 @@
     },
     "rich_text": {
       "type": "rich-text",
+      "blocks": {
+        "heading_THQ8Ld": {
+          "type": "heading",
+          "settings": {
+            "heading": "Be wise and dress your device!",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_THQ8Ld"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-5",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 0
+        "padding_bottom": 40
+      }
+    },
+    "rich_text_MPith7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jxtwhF": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text_trDpUG": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jxtwhF",
+        "text_trDpUG"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "video": {
@@ -174,6 +225,7 @@
     "collection_list_we8dNk",
     "featured_collection_96hMfk",
     "rich_text",
+    "rich_text_MPith7",
     "video",
     "1733249068d19c8e53",
     "custom_liquid_9f9ya4"
