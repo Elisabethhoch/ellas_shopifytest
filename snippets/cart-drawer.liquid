@@ -551,11 +551,12 @@
             form="CartDrawer-Form"
             {% if cart == empty %}
               disabled
-            {% endif %}
-            <form method="post" action="/checkout">
+              <form method="post" action="/checkout">
     <button type="submit" class="btn btn-primary">Checkout</button>
 </form>
 
+            {% endif %}
+            
           >
             {{ 'sections.cart.checkout' | t }}
           </button>
