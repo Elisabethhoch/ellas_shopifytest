@@ -106,6 +106,42 @@
         "padding_bottom": 12
       }
     },
+    "173322712238799e3f": {
+      "type": "apps",
+      "blocks": {
+        "metafields_guru_text_cbRCPr": {
+          "type": "shopify://apps/metafields-guru/blocks/text/79c9df68-85d5-4857-a386-0d96fc22b663",
+          "settings": {
+            "title": "Text",
+            "mn": "description_text",
+            "mk": "des_1",
+            "from_shop": false,
+            "color": "",
+            "bg": "",
+            "text_style": "default",
+            "design": "ul",
+            "gap": 4,
+            "plv": 0,
+            "plh": 0,
+            "corner_radius": 0,
+            "border_size": 0,
+            "border_style": "solid",
+            "pf": "",
+            "sf": "",
+            "display_units": true,
+            "pt": 0,
+            "pb": 0,
+            "cc": ""
+          }
+        }
+      },
+      "block_order": [
+        "metafields_guru_text_cbRCPr"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -127,6 +163,7 @@
   },
   "order": [
     "main",
+    "173322712238799e3f",
     "related-products"
   ]
 }
