@@ -115,6 +115,15 @@
           </div>
         </div>
       {%- endif -%}
+      {% for item in cart.items %}
+  <div class="cart-item">
+    <p>{{ item.product.title }}</p>
+    <p>{{ item.quantity }}</p>
+    <p>{{ item.line_price | money }}</p>
+    <button class="remove-item" data-id="{{ item.key }}">Entfernen</button>
+  </div>
+{% endfor %}
+
     </div>
     {%- if card_collection != blank and card_style == 'card' or card_collection.featured_image -%}
       <div class="card__content">
