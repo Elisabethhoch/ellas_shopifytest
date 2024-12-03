@@ -52,11 +52,41 @@
             "show_gift_card_recipient": false
           }
         },
+        "webify_metafields_editor_product_block_text_metafields_KHBGPr": {
+          "type": "shopify://apps/webify-metafields-editor/blocks/product_block_text_metafields/d145587e-c047-4132-8917-6a1380a88ab6",
+          "settings": {
+            "color": "#000000",
+            "namespace": "",
+            "key": "",
+            "text_label": "",
+            "css_class": ""
+          }
+        },
         "text_FRghTD": {
           "type": "text",
           "settings": {
             "text": "Our tech sleeves combine exceptional design with top-quality craftsmanship. The carefully selected outer fabric offers a timeless look and a pleasant feel. Inside, a protective layer and soft cotton lining ensure optimal device protection. The sturdy, color-coordinated zipper completes the design, making the sleeve the perfect companion for those who value style and functionality!",
             "text_style": "body"
+          }
+        },
+        "webify_metafields_editor_product_block_text_metafields_39XiGC": {
+          "type": "shopify://apps/webify-metafields-editor/blocks/product_block_text_metafields/d145587e-c047-4132-8917-6a1380a88ab6",
+          "settings": {
+            "color": "#000000",
+            "namespace": "description_text",
+            "key": "des_1",
+            "text_label": "yeet",
+            "css_class": ""
+          }
+        },
+        "webify_metafields_editor_product_block_text_metafields_gQKetB": {
+          "type": "shopify://apps/webify-metafields-editor/blocks/product_block_text_metafields/d145587e-c047-4132-8917-6a1380a88ab6",
+          "settings": {
+            "color": "#000000",
+            "namespace": "",
+            "key": "",
+            "text_label": "",
+            "css_class": ""
           }
         },
         "collapsible_tab_wkEtBz": {
@@ -86,7 +116,10 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "webify_metafields_editor_product_block_text_metafields_KHBGPr",
         "text_FRghTD",
+        "webify_metafields_editor_product_block_text_metafields_39XiGC",
+        "webify_metafields_editor_product_block_text_metafields_gQKetB",
         "collapsible_tab_wkEtBz",
         "collapsible_tab_kF8g3Y"
       ],
@@ -96,10 +129,10 @@
         "media_size": "large",
         "constrain_to_viewport": true,
         "media_fit": "contain",
-        "gallery_layout": "stacked",
+        "gallery_layout": "thumbnail",
         "media_position": "left",
-        "image_zoom": "lightbox",
-        "mobile_thumbnails": "hide",
+        "image_zoom": "hover",
+        "mobile_thumbnails": "columns",
         "hide_variants": true,
         "enable_video_looping": false,
         "padding_top": 36,
@@ -109,34 +142,20 @@
     "173322712238799e3f": {
       "type": "apps",
       "blocks": {
-        "metafields_guru_text_cbRCPr": {
-          "type": "shopify://apps/metafields-guru/blocks/text/79c9df68-85d5-4857-a386-0d96fc22b663",
+        "webify_metafields_editor_product_block_text_metafields_4n8JeX": {
+          "type": "shopify://apps/webify-metafields-editor/blocks/product_block_text_metafields/d145587e-c047-4132-8917-6a1380a88ab6",
+          "disabled": true,
           "settings": {
-            "title": "Text",
-            "mn": "description_text",
-            "mk": "des_1",
-            "from_shop": false,
-            "color": "",
-            "bg": "",
-            "text_style": "default",
-            "design": "ul",
-            "gap": 4,
-            "plv": 0,
-            "plh": 0,
-            "corner_radius": 0,
-            "border_size": 0,
-            "border_style": "solid",
-            "pf": "",
-            "sf": "",
-            "display_units": true,
-            "pt": 0,
-            "pb": 0,
-            "cc": ""
+            "color": "#b77e7e",
+            "namespace": "description_text",
+            "key": "des_1",
+            "text_label": "hahahha",
+            "css_class": ""
           }
         }
       },
       "block_order": [
-        "metafields_guru_text_cbRCPr"
+        "webify_metafields_editor_product_block_text_metafields_4n8JeX"
       ],
       "settings": {
         "include_margins": true
