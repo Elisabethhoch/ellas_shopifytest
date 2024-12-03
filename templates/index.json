@@ -73,7 +73,7 @@
         "featured_collection_dF9hcB"
       ],
       "settings": {
-        "title": "Meine Größen",
+        "title": "",
         "heading_size": "h2",
         "image_ratio": "square",
         "columns_desktop": 5,
@@ -140,6 +140,23 @@
         "padding_bottom": 36
       }
     },
+    "1733249068d19c8e53": {
+      "type": "apps",
+      "blocks": {
+        "mageplaza_insta_feed_mp_instagram_block_YcnXq6": {
+          "type": "shopify://apps/mageplaza-insta-feed/blocks/mp_instagram_block/2e85b90f-5da9-4654-967e-051f1942340c",
+          "settings": {
+            "mp_instagram_feed_id": ""
+          }
+        }
+      },
+      "block_order": [
+        "mageplaza_insta_feed_mp_instagram_block_YcnXq6"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "custom_liquid_9f9ya4": {
       "type": "custom-liquid",
       "settings": {
@@ -157,6 +174,7 @@
     "featured_collection_96hMfk",
     "rich_text",
     "video",
+    "1733249068d19c8e53",
     "custom_liquid_9f9ya4"
   ]
 }
