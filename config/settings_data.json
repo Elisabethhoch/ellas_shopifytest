@@ -159,7 +159,7 @@
       "scheme-1": {
         "settings": {
           "background": "#ffffff",
-          "background_gradient": "",
+          "background_gradient": "radial-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 98%)",
           "text": "#05238f",
           "button": "#ffffff",
           "button_label": "#05238f",
