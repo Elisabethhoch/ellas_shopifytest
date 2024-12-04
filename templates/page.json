@@ -17,39 +17,56 @@
         "padding_bottom": 28
       }
     },
-    "rich_text_GVpj4r": {
-      "type": "rich-text",
+    "image_with_text_kAFVGU": {
+      "type": "image-with-text",
       "blocks": {
-        "heading_QcKmJV": {
+        "heading_HaUBtU": {
           "type": "heading",
           "settings": {
-            "heading": "🪩",
+            "heading": "Image with text",
             "heading_size": "h1"
           }
         },
-        "text_Ch3hxa": {
+        "text_rgCk6n": {
           "type": "text",
           "settings": {
-            "text": "<p>The idea for my bags came from a<br/>simple search: I wanted a laptop bag that wasn’t just functional but also<br/>stylish. Ideally, I wanted to have a say in the design—something that adds joy<br/>to everyday life, with bold colors and patterns.</p><p>I love unique designs that surprise,<br/>and I make sure each bag stands out with a colorful lining and details like a<br/>sturdy zipper. The look remains classic and chic, making it the perfect<br/>accessory to elevate your everyday outfit.</p><p>Whether for the office, on the go,<br/>or as a fashion statement: my bags combine functionality with style and are<br/>sure to catch the eye, bringing a bit of joy along the way.</p><p>You can choose from available<br/>in-stock cases or customize your own design. The in-stock cases are released in<br/>collections, with a new collection launching every three months. If you'd like<br/>a custom design, you can place your order directly on the website, with a<br/>processing time of up to 14 days.</p>"
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_dH8Xpm": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "heading_QcKmJV",
-        "text_Ch3hxa"
+        "heading_HaUBtU",
+        "text_rgCk6n",
+        "button_dH8Xpm"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "image": "shopify://shop_images/IMG_9126_2.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     }
   },
   "order": [
     "main",
-    "rich_text_GVpj4r"
+    "image_with_text_kAFVGU"
   ]
 }
