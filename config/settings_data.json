@@ -139,11 +139,6 @@
     },
     "content_for_index": [],
     "blocks": {
-      "14684659138027382045": {
-        "type": "shopify://apps/xo-gallery/blocks/xo-gallery-scripts/e61dfbaa-1a75-4e4e-bffc-324f17325251",
-        "disabled": false,
-        "settings": {}
-      },
       "4651250007506174373": {
         "type": "shopify://apps/mageplaza-insta-feed/blocks/app_embed/2e85b90f-5da9-4654-967e-051f1942340c",
         "disabled": false,
@@ -151,6 +146,11 @@
       },
       "7770194999415187106": {
         "type": "shopify://apps/xo-gallery/blocks/xo-gallery-seo/e61dfbaa-1a75-4e4e-bffc-324f17325251",
+        "disabled": true,
+        "settings": {}
+      },
+      "14684659138027382045": {
+        "type": "shopify://apps/xo-gallery/blocks/xo-gallery-scripts/e61dfbaa-1a75-4e4e-bffc-324f17325251",
         "disabled": true,
         "settings": {}
       }
