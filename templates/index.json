@@ -127,8 +127,8 @@
         "heading_THQ8Ld": {
           "type": "heading",
           "settings": {
-            "heading": "Be wise and dress your device!",
-            "heading_size": "h0"
+            "heading": "be wise and dress your device!",
+            "heading_size": "h1"
           }
         }
       },
