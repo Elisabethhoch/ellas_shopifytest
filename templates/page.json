@@ -16,9 +16,40 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_text_WinYBw": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8xJkRV": {
+          "type": "heading",
+          "settings": {
+            "heading": "🪩",
+            "heading_size": "h2"
+          }
+        },
+        "text_hkjfHe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The idea for my bags came from a simple search: I wanted a laptop bag that wasn’t just functional but also stylish. Ideally, I wanted to have a say in the design—something that adds joy to everyday life, with bold colors and patterns.</p><p>I love unique designs that surprise, and I make sure each bag stands out with a colorful lining and details like a sturdy zipper. The look remains classic and chic, making it the perfect accessory to elevate your everyday outfit.</p><p>Whether for the office, on the go, or as a fashion statement: my bags combine functionality with style and are sure to catch the eye, bringing a bit of joy along the way.</p><p>You can choose from available in-stock cases or customize your own design. The in-stock cases are released in collections, with a new collection launching every three months. If you'd like a custom design, you can place your order directly on the website, with a processing time of up to 14 days.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8xJkRV",
+        "text_hkjfHe"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_WinYBw"
   ]
 }
