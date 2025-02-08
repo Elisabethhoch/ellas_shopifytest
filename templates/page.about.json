@@ -1,0 +1,55 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_WinYBw": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8xJkRV": {
+          "type": "heading",
+          "settings": {
+            "heading": "🪩",
+            "heading_size": "h2"
+          }
+        },
+        "text_hkjfHe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The idea for the bags came from a simple search: We wanted a laptop bag that was not only functional, but also stylish. We would have loved to have had a say in the design ourselves - something that would bring joy to everyday life, with eye-catching colours and patterns.</p><p>We love unusual designs that surprise and make each bag an eye-catcher with a colourful lining and details such as a robust zip. The look remains classically chic and is the perfect accessory to spice up your everyday outfit.<br/>Whether for the office, on the go or simply as a fashion statement: our bags combine functionality with style and are a real eye-catcher that is a joy to wear.</p><p>You can buy the cases that are in stock or choose your own design. The cases in stock are released in collections. Every three months, a new collection of cases comes online. You can also order your own design via the website with a waiting time of up to 14 days. (currently still via Insta DM or mail to: contact@ellaviestudios.com)</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8xJkRV",
+        "text_hkjfHe"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 32
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_WinYBw"
+  ]
+}
