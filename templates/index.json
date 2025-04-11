@@ -192,48 +192,6 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_cy6hg9": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_7hd8kN": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1"
-          }
-        },
-        "text_7MNjDV": {
-          "type": "text",
-          "settings": {
-            "text": ""
-          }
-        },
-        "button_qwtH8r": {
-          "type": "button",
-          "settings": {
-            "button_label": "",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_7hd8kN",
-        "text_7MNjDV",
-        "button_qwtH8r"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "1733249068d19c8e53": {
       "type": "apps",
       "blocks": {
@@ -260,7 +218,6 @@
     "featured_collection_96hMfk",
     "rich_text",
     "video",
-    "rich_text_cy6hg9",
     "1733249068d19c8e53"
   ]
 }
