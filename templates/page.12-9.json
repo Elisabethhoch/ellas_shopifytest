@@ -20,12 +20,12 @@
     "featured_collection_gLDyLe": {
       "type": "featured-collection",
       "settings": {
-        "title": "Ipadhüllen 10.9\"",
+        "title": "Ipadhüllen 12.9\"",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "10-9",
+        "collection": "12-9",
         "products_to_show": 21,
         "columns_desktop": 4,
         "full_width": false,
