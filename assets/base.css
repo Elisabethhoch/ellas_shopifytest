@@ -3601,5 +3601,12 @@ details-disclosure > details {
 .product-card__title {
   margin-top: 5px !important; /* Verringert den Abstand über dem Titel */
 }
+.header__icon--cart {
+  text-decoration: none !important;
+}
+
+.header__icon--cart:hover {
+  text-decoration: none !important;
+}
 
 
