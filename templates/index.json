@@ -25,23 +25,23 @@
         "show_text_below": true
       }
     },
-    "featured_collection_xGjphC": {
+    "featured_collection_yGF6b3": {
       "type": "featured-collection",
-      "disabled": true,
+      "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "title": "",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "",
+        "collection": "13-zoll",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": true,
-        "show_view_all": true,
+        "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": true,
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
@@ -49,9 +49,9 @@
         "show_rating": false,
         "quick_add": "none",
         "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 16,
-        "padding_bottom": 16
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "1732561859482d3bdd": {
@@ -61,7 +61,6 @@
           "type": "shopify://apps/xo-gallery/blocks/xo-gallery/e61dfbaa-1a75-4e4e-bffc-324f17325251",
           "disabled": true,
           "settings": {
-            "type": "gallery",
             "id": 2,
             "mid": ""
           }
@@ -72,108 +71,6 @@
       ],
       "settings": {
         "include_margins": false
-      }
-    },
-    "collection_list_we8dNk": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_7jDrpc": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "corduroy"
-          }
-        },
-        "featured_collection_4raDaM": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "14-zoll"
-          }
-        },
-        "featured_collection_VTqMtd": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "featured_collection_dF9hcB": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "15-zoll"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_7jDrpc",
-        "featured_collection_4raDaM",
-        "featured_collection_VTqMtd",
-        "featured_collection_dF9hcB"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "image_ratio": "square",
-        "columns_desktop": 5,
-        "color_scheme": "scheme-1",
-        "show_view_all": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection_96hMfk": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "favourite",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": true,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "standard",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 12
-      }
-    },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_THQ8Ld": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "be wise and dress your device!",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading_THQ8Ld"
-      ],
-      "disabled": true,
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 40
       }
     },
     "video": {
@@ -212,11 +109,8 @@
   },
   "order": [
     "image_banner",
-    "featured_collection_xGjphC",
+    "featured_collection_yGF6b3",
     "1732561859482d3bdd",
-    "collection_list_we8dNk",
-    "featured_collection_96hMfk",
-    "rich_text",
     "video",
     "1733249068d19c8e53"
   ]
