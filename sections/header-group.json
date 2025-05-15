@@ -11,31 +11,6 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
-    "announcement_bar_rCtyQd": {
-      "type": "announcement-bar",
-      "blocks": {
-        "announcement_ntFwaQ": {
-          "type": "announcement",
-          "settings": {
-            "text": "Get 15% off with code SPRING15",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "announcement_ntFwaQ"
-      ],
-      "name": "t:sections.announcement-bar.presets.name",
-      "settings": {
-        "color_scheme": "scheme-64a0b517-d6cd-4ccc-81a3-9accac4b6242",
-        "show_line_separator": true,
-        "show_social": false,
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "enable_country_selector": false,
-        "enable_language_selector": false
-      }
-    },
     "header": {
       "type": "header",
       "settings": {
@@ -57,7 +32,6 @@
     }
   },
   "order": [
-    "announcement_bar_rCtyQd",
     "header"
   ]
 }
