@@ -1,0 +1,188 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "webify_metafields_editor_product_block_text_metafields_KHBGPr": {
+          "type": "shopify://apps/webify-metafields-editor/blocks/product_block_text_metafields/d145587e-c047-4132-8917-6a1380a88ab6",
+          "settings": {
+            "color": "#000000",
+            "namespace": "",
+            "key": "",
+            "text_label": "",
+            "css_class": ""
+          }
+        },
+        "text_FRghTD": {
+          "type": "text",
+          "settings": {
+            "text": "Our tech sleeves combine exceptional design with top-quality craftsmanship. The carefully selected outer fabric offers a timeless look and a pleasant feel. Inside, a protective layer and soft cotton lining ensure optimal device protection. The sturdy, color-coordinated zipper completes the design, making the sleeve the perfect companion for those who value style and functionality!",
+            "text_style": "body"
+          }
+        },
+        "webify_metafields_editor_product_block_text_metafields_39XiGC": {
+          "type": "shopify://apps/webify-metafields-editor/blocks/product_block_text_metafields/d145587e-c047-4132-8917-6a1380a88ab6",
+          "settings": {
+            "color": "#000000",
+            "namespace": "description_text",
+            "key": "des_1",
+            "text_label": "yeet",
+            "css_class": ""
+          }
+        },
+        "webify_metafields_editor_product_block_text_metafields_gQKetB": {
+          "type": "shopify://apps/webify-metafields-editor/blocks/product_block_text_metafields/d145587e-c047-4132-8917-6a1380a88ab6",
+          "settings": {
+            "color": "#000000",
+            "namespace": "",
+            "key": "",
+            "text_label": "",
+            "css_class": ""
+          }
+        },
+        "collapsible_tab_wkEtBz": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "description",
+            "icon": "star",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible_tab_kF8g3Y": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "shipping & returns",
+            "icon": "none",
+            "content": "<p>Find out more about the shipping costs to your destination <a href=\"https://ellavie-shop.myshopify.com/pages/shipping-returns\" title=\"https://ellavie-shop.myshopify.com/pages/shipping-returns\">here</a>.</p><p>We accept returns within 14 days of receipt free of charge. For more information, see <a href=\"https://ellavie-shop.myshopify.com/pages/shipping-returns\" title=\"https://ellavie-shop.myshopify.com/pages/shipping-returns\">here</a> our policy.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "caption",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "webify_metafields_editor_product_block_text_metafields_KHBGPr",
+        "text_FRghTD",
+        "webify_metafields_editor_product_block_text_metafields_39XiGC",
+        "webify_metafields_editor_product_block_text_metafields_gQKetB",
+        "collapsible_tab_wkEtBz",
+        "collapsible_tab_kF8g3Y"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "",
+        "media_size": "large",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail",
+        "media_position": "left",
+        "image_zoom": "hover",
+        "mobile_thumbnails": "columns",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "173322712238799e3f": {
+      "type": "apps",
+      "blocks": {
+        "webify_metafields_editor_product_block_text_metafields_4n8JeX": {
+          "type": "shopify://apps/webify-metafields-editor/blocks/product_block_text_metafields/d145587e-c047-4132-8917-6a1380a88ab6",
+          "disabled": true,
+          "settings": {
+            "color": "#b77e7e",
+            "namespace": "description_text",
+            "key": "des_1",
+            "text_label": "hahahha",
+            "css_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "webify_metafields_editor_product_block_text_metafields_4n8JeX"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "173322712238799e3f",
+    "related-products"
+  ]
+}
