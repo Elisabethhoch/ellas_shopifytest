@@ -37,8 +37,8 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "dropdown",
-            "swatch_shape": "none"
+            "picker_type": "button",
+            "swatch_shape": "square"
           }
         },
         "quantity_selector": {
@@ -129,7 +129,7 @@
         "media_size": "large",
         "constrain_to_viewport": true,
         "media_fit": "contain",
-        "gallery_layout": "thumbnail",
+        "gallery_layout": "columns",
         "media_position": "left",
         "image_zoom": "hover",
         "mobile_thumbnails": "columns",
