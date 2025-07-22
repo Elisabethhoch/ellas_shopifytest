@@ -12,13 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {}
@@ -66,7 +59,7 @@
           "type": "text",
           "settings": {
             "text": "Our tech sleeves combine exceptional design with top-quality craftsmanship. The carefully selected outer fabric offers a timeless look and a pleasant feel. Inside, a protective layer and soft cotton lining ensure optimal device protection. The sturdy, color-coordinated zipper completes the design, making the sleeve the perfect companion for those who value style and functionality!",
-            "text_style": "body"
+            "text_style": "uppercase"
           }
         },
         "webify_metafields_editor_product_block_text_metafields_39XiGC": {
@@ -93,7 +86,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "description",
-            "icon": "star",
+            "icon": "none",
             "content": "",
             "page": ""
           }
@@ -109,7 +102,6 @@
         }
       },
       "block_order": [
-        "vendor",
         "title",
         "caption",
         "price",
@@ -126,7 +118,7 @@
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "",
-        "media_size": "large",
+        "media_size": "medium",
         "constrain_to_viewport": true,
         "media_fit": "contain",
         "gallery_layout": "thumbnail",
