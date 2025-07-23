@@ -93,7 +93,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "description",
-            "icon": "star",
+            "icon": "none",
             "content": "",
             "page": ""
           }
