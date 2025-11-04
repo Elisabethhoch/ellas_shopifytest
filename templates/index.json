@@ -14,7 +14,7 @@
       "settings": {
         "image": "shopify://shop_images/IMG_2402.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "large",
+        "image_height": "adapt",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -92,7 +92,7 @@
       "type": "apps",
       "blocks": {
         "mageplaza_insta_feed_mp_instagram_block_YcnXq6": {
-          "type": "shopify://apps/mp-instagram-feed/blocks/mp_instagram_block/2e85b90f-5da9-4654-967e-051f1942340c",
+          "type": "shopify://apps/instagram-feed/blocks/mp_instagram_block/2e85b90f-5da9-4654-967e-051f1942340c",
           "settings": {
             "mp_instagram_feed_id": "mp_YY733230142"
           }
