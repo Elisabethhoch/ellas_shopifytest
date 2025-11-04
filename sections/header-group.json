@@ -13,9 +13,7 @@
   "sections": {
     "header": {
       "type": "header",
-      "custom_css": [
-        "/* Header transparent auf der Startseite */.template-index .header-wrapper {background: transparent !important; position: absolute !important; top: 0; left: 0; width: 100%; z-index: 10; box-shadow: none !important; border: none !important;}"
-      ],
+      "custom_css": [],
       "settings": {
         "logo_position": "middle-center",
         "menu": "main-menu",
