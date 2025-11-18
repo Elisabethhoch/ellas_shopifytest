@@ -25,6 +25,7 @@
       "block_order": [
         "announcement_jBiFQ7"
       ],
+      "disabled": true,
       "name": "t:sections.announcement-bar.presets.name",
       "settings": {
         "color_scheme": "scheme-3",
