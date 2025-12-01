@@ -23,6 +23,13 @@
           "type": "title",
           "settings": {}
         },
+        "text_XgtiBL": {
+          "type": "text",
+          "settings": {
+            "text": "PRE-ORDER",
+            "text_style": "subtitle"
+          }
+        },
         "caption": {
           "type": "text",
           "settings": {
@@ -111,6 +118,7 @@
       "block_order": [
         "vendor",
         "title",
+        "text_XgtiBL",
         "caption",
         "price",
         "variant_picker",
