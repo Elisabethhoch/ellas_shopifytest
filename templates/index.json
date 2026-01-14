@@ -88,35 +88,18 @@
         "padding_bottom": 36
       }
     },
-    "1733249068d19c8e53": {
+    "1768397122b3f8c7a6": {
       "type": "apps",
       "blocks": {
-        "mageplaza_insta_feed_mp_instagram_block_YcnXq6": {
-          "type": "shopify://apps/mageplaza-instagram-feed/blocks/mp_instagram_block/2e85b90f-5da9-4654-967e-051f1942340c",
-          "settings": {
-            "mp_instagram_feed_id": "mp_YY733230142"
-          }
-        }
-      },
-      "block_order": [
-        "mageplaza_insta_feed_mp_instagram_block_YcnXq6"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "176313481099851877": {
-      "type": "apps",
-      "blocks": {
-        "mageplaza_instagram_feed_mp_instagram_block_mTLMzG": {
-          "type": "shopify://apps/mageplaza-instagram-feed/blocks/mp_instagram_block/2e85b90f-5da9-4654-967e-051f1942340c",
+        "mp_instagram_feed_mp_instagram_block_rRFxbQ": {
+          "type": "shopify://apps/mp-instagram-feed/blocks/mp_instagram_block/2e85b90f-5da9-4654-967e-051f1942340c",
           "settings": {
             "mp_instagram_feed_id": ""
           }
         }
       },
       "block_order": [
-        "mageplaza_instagram_feed_mp_instagram_block_mTLMzG"
+        "mp_instagram_feed_mp_instagram_block_rRFxbQ"
       ],
       "settings": {
         "include_margins": true
@@ -128,7 +111,6 @@
     "featured_collection_yGF6b3",
     "1732561859482d3bdd",
     "video",
-    "1733249068d19c8e53",
-    "176313481099851877"
+    "1768397122b3f8c7a6"
   ]
 }
